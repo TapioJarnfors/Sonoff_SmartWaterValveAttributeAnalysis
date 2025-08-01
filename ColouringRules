@@ -1,0 +1,12 @@
+# This file was created by Wireshark. Edit with care.
+@zbee_zcl_meas_sensing.flowmeas.attr_id@zbee_zcl_meas_sensing.flowmeas.attr_id@[21845,65535,65535][0,0,0]
+@zbee_zcl.attr.id == 0x500e@zbee_zcl.attr.id == 0x500e@[65535,21845,0][0,0,0]
+@zbee_zcl.attr.id == 0x5007@zbee_zcl.attr.id == 0x5007@[65535,21845,65535][0,0,0]
+@zbee_zcl.attr.id == 0x5006@zbee_zcl.attr.id == 0x5006@[43690,21845,65535][0,0,0]
+@zbee_zcl.attr.id == 0x500c@zbee_zcl.attr.id == 0x500c@[0,43690,65535][0,0,0]
+@zbee_zcl.attr.id == 0x5010@zbee_zcl.attr.id == 0x5010@[21845,43690,65535][0,0,0]
+@zbee_zcl.attr.id == 0x500d@zbee_zcl.attr.id == 0x500d@[65535,43690,32639][0,0,0]
+@zbee_zcl.attr.id == 0x5009@zbee_zcl.attr.id == 0x5009@[65535,43690,65535][0,0,0]
+@zbee_zcl.attr.id == 0x5008@zbee_zcl.attr.id == 0x5008@[21845,65535,65535][0,0,0]
+@zbee_zcl.attr.id == 0x500f@zbee_zcl.attr.id == 0x500f@[0,65535,32639][0,0,0]
+@zbee_zcl_general.onoff.attr_id == 0x0000@zbee_zcl_general.onoff.attr_id == 0x0000@[65535,65535,0][0,0,0]
