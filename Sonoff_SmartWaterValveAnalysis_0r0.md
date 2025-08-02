@@ -140,11 +140,11 @@ Wireshark captures show the following sequence of events for a quantitative irri
 | 1648  |           | Valve reports: Too low Flow              | Indication of successful closed state?                  |
 | 1738  | `0x5009`  | Write to valve settings for next cycle   | Start of next cycle preparation                         |
 
-### Event Timeline for Timed Irrigation less than 0.1 m³/h (Mapped to Packet Captures)
+### Event Timeline for Quantitative Irrigation less than 0.1 m³/h (Mapped to Packet Captures)
 
-_Summary: This section details the event sequence for a timed irrigation cycle at very low flow rates, highlighting how the system responds and which attributes are affected. It is useful for understanding system behavior under minimal flow conditions._
+_Summary: This section details the event sequence for a quantitative irrigation cycle at very low flow rates, highlighting how the system responds and which attributes are affected. It is useful for understanding system behavior under minimal flow conditions._
 
-Wireshark captures show the following sequence of events for a timed irrigation cycle, confirming the system's operation as per the defined attributes:
+Wireshark captures show the following sequence of events for a quantitative irrigation cycle, confirming the system's operation as per the defined attributes:
 Wireshark file name: `20250713_QuantitativeCapture_041115_0.0Flow.pcapng`
 Parameters for this capture:
 
@@ -173,11 +173,11 @@ Parameters for this capture:
 ... (continues with similar pattern) ...
 Manually closed the valve and data capturing of the irrigation cycle
 
-### Event Timeline for Timed Irrigation 0.6 m³/h (Mapped to Packet Captures)
+### Event Timeline for Quantitative Irrigation 0.6 m³/h (Mapped to Packet Captures)
 
-_Summary: This section shows the event timeline for a timed irrigation cycle at a higher flow rate (0.6 m³/h), allowing comparison with lower flow scenarios and helping to identify any differences in attribute reporting or system response._
+_Summary: This section shows the event timeline for a quantitative irrigation cycle at a higher flow rate (0.6 m³/h), allowing comparison with lower flow scenarios and helping to identify any differences in attribute reporting or system response._
 
-Wireshark captures show the following sequence of events for a timed irrigation cycle, confirming the system's operation as per the defined attributes:
+Wireshark captures show the following sequence of events for a quantitative irrigation cycle, confirming the system's operation as per the defined attributes:
 Wireshark file name: `20250713_QuantitativeCapture_041115_0.6Flow.pcapng`
 Parameters for this capture:
 
@@ -484,3 +484,4 @@ Idea of this test is to have a small flow of water but there is now flow volume 
 | 711   | `0x0000`  | **Valve CLOSED**              | Irrigation stop                                         |
 | 713   | `0x500e`  | **End time**: 1752421993      | 2025-07-13 06:06:33 UTC                                 |
 | 1251  | `0x500f`  | Valve reports: 32             |                                                         |
+
