@@ -1,5 +1,23 @@
 # Sonoff Smart Water Valve Attribute Analysis
 
-This document provides a detailed analysis of the event timeline for the Sonoff Smart Water Valve, focusing on both quantitative and timed irrigation cycles. The analysis is based on packet captures, highlighting key events and their corresponding attributes. My watering system uses low flow volumes, which was the main reason to investigate and study how the valve operates in an "out of normal" range. The flow range of the SONOFF Smart Water Valve starts from 0.1 m³/h, while my system uses around 0.07 m³/h. The valve works with timed irrigation as needed, but its reporting differs compared to the "normal flow range."
+[![Wiki Documentation](https://img.shields.io/badge/Documentation-Wiki-blue)](https://github.com/TapioJarnfors/Sonoff_SmartWaterValveAttributeAnalysis/wiki)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Details are in the file Sonoff_SmartWaterValveAnalysis_0r0.md and any comments or suggestions are welcome.
+## Overview
+This project provides a detailed analysis of the event timeline for the Sonoff Smart Water Valve, focusing on both quantitative and timed irrigation cycles. The analysis is based on Zigbee packet captures, highlighting key events and their corresponding attributes.
+
+### Key Findings
+- **Low Flow Behavior**: Documents valve operation below specified range (0.07 m³/h vs minimum 0.1 m³/h)
+- **Packet Analysis**: Includes Wireshark captures and decoded Zigbee clusters
+- **Attribute Mapping**: Complete breakdown of custom Sonoff ZCL attributes
+
+## Documentation
+📖 Full technical analysis available in the **[project Wiki](https://github.com/TapioJarnfors/Sonoff_SmartWaterValveAttributeAnalysis/wiki)** including:
+- Event timelines for different flow rates
+- Byte-level attribute documentation
+- Packet capture samples
+
+## Usage
+```bash
+# Clone repository (including wiki)
+git clone --recurse-submodules https://github.com/TapioJarnfors/Sonoff_SmartWaterValveAttributeAnalysis.git
