@@ -1,4 +1,4 @@
-# Sonoff Smart Water Valve Attribute Analysis
+# Sonoff Smart Water Valve Analysis and Guide
 
 [![Wiki Documentation](https://img.shields.io/badge/Documentation-Wiki-blue)](https://github.com/TapioJarnfors/Sonoff_SmartWaterValveAttributeAnalysis/wiki)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
